@@ -2,15 +2,16 @@ baseURL: "https://podcast.kotet.jp"
 languageCode: "ja-jp"
 title: "APUS.podcast"
 
-params.feed:
-  copyright: © 2019 Kotet - All Rights Reserved.
-  itunes_subtitle: 愛知県立大学生のポッドキャスト
-  itunes_author: Kotet
-  itunes_summary: APUS.podcastは愛知県立大学情報科学部生のKotetが作るPodcastです。愛知県立大学に関するさまざまな人に話を聴きます。
-  itunes_owner_name: Kotet
-  itunes_owner_email: kotet0418@gmail.com
-  itunes_image: https://podcast.kotet.jp/img/itunes_image.png
-  itunes_top_category: Technology
-  itunes_first_sub_category: Podcasting
+params:
+  feed:
+    copyright: © 2019 Kotet - All Rights Reserved.
+    itunes_subtitle: 愛知県立大学生のポッドキャスト
+    itunes_author: Kotet
+    itunes_summary: APUS.podcastは愛知県立大学情報科学部生のKotetが作るPodcastです。愛知県立大学に関するさまざまな人に話を聴きます。
+    itunes_owner_name: Kotet
+    itunes_owner_email: kotet0418@gmail.com
+    itunes_image: https://podcast.kotet.jp/img/itunes_image.png
+    itunes_top_category: Technology
+    itunes_first_sub_category: Podcasting
 
 media_prefix: https://podcast.kotet.jp/audio/
