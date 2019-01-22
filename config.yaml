@@ -13,5 +13,4 @@ params:
     itunes_image: https://podcast.kotet.jp/img/itunes_image.jpg
     itunes_top_category: Technology
     itunes_first_sub_category: Podcasting
-
-media_prefix: https://podcast.kotet.jp/audio/
+  media_prefix: https://podcast.kotet.jp/audio/
