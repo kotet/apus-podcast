@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {{ $style := resources.Get "/sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <link rel="icon" href="/favicon.ico">
+    {{ .Hugo.Generator }}
+    {{ block "head" . }}{{ end }}
+</head>
+
+<body>
+
+    <header class="site">
+        <h1>
+            <a href="/"></a>
+            <span>Aichi Prefectural University Students' Podcast</span>
+        </h1>
+    </header>
+    <main>
+        {{ block "main" . }} {{ end }}
+    </main>
+    <footer>
+        <p>
+            <a href="https://kotet.jp">kotet.jp</a>
+        </p>
+    </footer>
+</body>
+
+</html>

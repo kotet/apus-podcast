@@ -1,0 +1,31 @@
+{{ define "title" }}{{ .Title }} - {{ .Site.Title }} {{ end }}
+
+{{ define "head" }}
+<script src="/audiojs/audio.min.js"></script>
+<script>
+    audiojs.events.ready(function () {
+        var as = audiojs.createAll();
+    });
+</script>
+{{ end }}
+
+{{ define "main" }}
+<article>
+    <header>
+        <h2>{{ .Title }}</h2>
+        <time>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</time>
+        <p>{{ .Params.podcast_duration }}</p>
+        {{ if .Params.explicit }}
+        <p>露骨な言語表現やアダルトコンテンツが含まれます</p>
+        {{ end }}
+    </header>
+
+    <audio src="/audio/{{ .Params.podcast_file }}" preload="none"></audio>
+
+    <p>
+        {{ .Params.description }}
+    </p>
+    {{ .Content }}
+</article>
+<hr>
+{{ end }}
