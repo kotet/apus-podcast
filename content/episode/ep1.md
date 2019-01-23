@@ -23,3 +23,4 @@ podcast_file: "ep1.mp3"
 - [協定校一覧 - 愛知県立大学　国際交流室](http://www.bur.aichi-pu.ac.jp/international/international_linkages/index.html)
 - [The University of North Carolina at Greensboro](http://www.uncg.edu/)
 - [APU情報科学トーク - 愛知県立大学　情報科学共同研究所](https://www.ist.aichi-pu.ac.jp/kyoudou-ken/jp/seminar_talk/talk.html)
+- [(1) SEREBRO - Между нами любовь (премьера клипа 2017) - YouTube](https://www.youtube.com/watch?v=qDZLDcex9uk&app=desktop)
