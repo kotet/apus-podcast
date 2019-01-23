@@ -10,6 +10,13 @@
     <link rel="canonical" href="{{ .Permalink }}" />
     <link rel="icon" href="/favicon.ico">
     <link type="application/rss+xml" rel="alternate" title="{{ .Site.Title }}" href="https://podcast.kotet.jp/episode/index.xml" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kotetttt" />
+    <meta name="twitter:title" content="{{ block "title" . }}{{ end }}" />
+    <meta name="twitter:description" content="{{ .Site.Params.feed.itunes_summary }}" />
+    <meta name="twitter:image" content="https://podcast.kotet.jp/img/cover.jpg" />
+
     {{ .Hugo.Generator }}
     {{ block "head" . }}{{ end }}
 </head>
