@@ -1,6 +1,6 @@
 baseURL: "https://podcast.kotet.jp"
 languageCode: "ja-jp"
-title: "APUS.podcast"
+title: "APUS.podcast - 愛知県立大学生ポッドキャスト"
 
 params:
   feed:
