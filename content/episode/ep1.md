@@ -1,5 +1,5 @@
 ---
-title: "1:心理学、Podcastを始めた理由、ロシア留学、「芋けんぴ 髪に付いてたよ」"
+title: "1:心理学、Podcastを始めた理由、ロシア留学、「芋けんぴ 髪に付いてたよ」(mekaboti)"
 Description: "mekabotiと心理学、Podcastを始めた理由、ロシア留学などについて話しました"
 date: 2019-01-22
 explicit: no
