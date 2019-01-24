@@ -17,6 +17,17 @@
     <meta name="twitter:description" content="{{ .Site.Params.feed.itunes_summary }}" />
     <meta name="twitter:image" content="https://podcast.kotet.jp/img/cover.jpg" />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133165304-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133165304-1');
+    </script>
+
+
     {{ .Hugo.Generator }}
     {{ block "head" . }}{{ end }}
 </head>
