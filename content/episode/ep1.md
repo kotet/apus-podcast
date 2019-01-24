@@ -7,6 +7,7 @@ podcast_duration: 01:28:34
 podcast_file: "ep1.mp3"
 ---
 
+### Notes:
 
 - [@mekaboti](https://twitter.com/mekaboti)
 - [ポッドキャスト - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88)
