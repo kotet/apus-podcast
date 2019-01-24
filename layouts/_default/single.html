@@ -4,7 +4,16 @@
 <script src="/audiojs/audio.min.js"></script>
 <script>
     audiojs.events.ready(function () {
-        var as = audiojs.createAll();
+        var as = audiojs.createAll({
+            play: function () {
+                ga('send', {
+                    hitType: 'event',
+                    eventCategory: 'Audio',
+                    eventAction: 'play',
+                    eventLabel: '{{ .Title | plainify }}'
+                });
+            }
+        });
     });
 </script>
 {{ end }}
