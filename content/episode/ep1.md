@@ -27,3 +27,4 @@ podcast_file: "ep1.mp3"
 - [SEREBRO - Mi Mi Mi (Official Video) - YouTube](https://www.youtube.com/watch?v=nlt5Wa13fFU&app=desktop)
 - [(1) SEREBRO - Между нами любовь (премьера клипа 2017) - YouTube（どーもくんと芋けんぴ）](https://www.youtube.com/watch?v=qDZLDcex9uk&app=desktop)
 - [(1) Группа SEREBRO «взорвала» Японию - YouTube（ファンに返事をするために日本語を学ぶSEREBRO）](https://www.youtube.com/watch?v=B-P9AApK_FM&feature=youtu.be)
+- [What Your Favorite Music Says About You | Reader's Digest](https://www.rd.com/culture/favorite-music-personality/)
