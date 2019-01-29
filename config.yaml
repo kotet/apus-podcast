@@ -15,3 +15,6 @@ params:
     itunes_first_sub_category: Podcasting
     explicit: no
   media_prefix: https://podcast.kotet.jp/audio/
+
+taxonomies:
+  categories: ""
