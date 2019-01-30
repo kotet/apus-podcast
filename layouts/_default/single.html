@@ -29,11 +29,25 @@
         {{ end }}
     </header>
 
-    <audio src="/audio/{{ .Params.podcast_file }}" preload="none"></audio>
-
     <p>
         {{ .Params.description }}
     </p>
+
+    <hr>
+
+    <p>
+        Podcast専用アプリで聴く:
+        {{ partial "subscribeon.html" . }}
+        直接ダウンロードして聴く:
+        <ul>
+            <li><a href="/audio/{{ .Params.podcast_file }}" target="_blank">{{ .Params.podcast_file }}</a></li>
+        </ul>
+        試し聴き:
+        <audio src="/audio/{{ .Params.podcast_file }}" preload="none"></audio>
+    </p>
+
+    <hr>
+
     {{ .Content }}
 </article>
 <hr>
