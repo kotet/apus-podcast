@@ -10,6 +10,7 @@ podcast_file: "ep4.mp3"
 ### Notes:
 
 - [yatteiki.fm](https://yatteiki.fm/)
+- [50. 若手ウェブディレクターが考える個人制作とVtuberのおもしろさの秘密 | yatteiki.fm](https://yatteiki.fm/episode/50)
 - [慢性活動性EBウイルス感染症について | メディカルノート](https://medicalnote.jp/diseases/%E6%85%A2%E6%80%A7%E6%B4%BB%E5%8B%95%E6%80%A7EB%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87)
 - [.fm - Wikipedia](https://ja.wikipedia.org/wiki/.fm)
 - [.tv - Wikipedia](https://ja.wikipedia.org/wiki/.tv)
