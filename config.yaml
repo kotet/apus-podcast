@@ -14,7 +14,7 @@ params:
     itunes_top_category: Technology
     itunes_first_sub_category: Podcasting
     explicit: no
-  media_prefix: https://podcast.kotet.jp/audio/
+  media_prefix: http://media.blubrry.com/counter_memes/podcast.kotet.jp/audio/
 
 taxonomies:
   categories: ""
