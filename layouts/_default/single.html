@@ -40,7 +40,7 @@
         {{ partial "subscribeon.html" . }}
         直接ダウンロードして聴く:
         <ul>
-            <li><a href="/audio/{{ .Params.podcast_file }}" target="_blank">{{ .Params.podcast_file }}</a></li>
+            <li><a href="{{ .Site.Params.media_prefix }}{{ .Params.podcast_file }}" target="_blank">{{ .Params.podcast_file }}</a></li>
         </ul>
         試し聴き:
         <audio src="/audio/{{ .Params.podcast_file }}" preload="none"></audio>
