@@ -17,6 +17,8 @@
     <meta name="twitter:description" content="{{ .Site.Params.feed.itunes_summary }}" />
     <meta name="twitter:image" content="https://podcast.kotet.jp/img/cover.jpg" />
 
+    {{ if .Site.IsServer }}
+    {{ else }}
     <!-- Google Analytics -->
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -30,6 +32,7 @@
         ga('send', 'pageview');
     </script>
     <!-- End Google Analytics -->
+    {{ end }}
 
     {{ .Hugo.Generator }}
     {{ block "head" . }}{{ end }}
