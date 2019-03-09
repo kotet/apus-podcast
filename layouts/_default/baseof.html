@@ -14,7 +14,11 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@kotetttt" />
     <meta name="twitter:title" content="{{ block "title" . }}{{ end }}" />
+    {{ if isset .Params "description" }}
+    <meta name="twitter:description" content="{{ .Params.description }}" />
+    {{ else }}
     <meta name="twitter:description" content="{{ .Site.Params.feed.itunes_summary }}" />
+    {{ end }}
     <meta name="twitter:image" content="https://podcast.kotet.jp/img/cover.jpg" />
 
     {{ if .Site.IsServer }}
